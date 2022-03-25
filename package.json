@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-express-tutorial",
+  "version": "1.0.0",
+  "description": "NodedJS BorntoDev course",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pondsecret/NodeJS-Express-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pondsecret/NodeJS-Express-tutorial/issues"
+  },
+  "homepage": "https://github.com/pondsecret/NodeJS-Express-tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
