@@ -14,7 +14,7 @@ app.set('view engine','ejs')
 
 
 app.get('/',(req,res)=>{
-    res.send(`<h1 style="color: darkcyan; background: lightgray;">iPOND Studio</h1>`)
+    res.sendFile('index')
 })
 
 app.listen(3000,host,()=>{
